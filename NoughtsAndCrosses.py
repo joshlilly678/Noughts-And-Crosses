@@ -81,11 +81,9 @@ def draw_status():
     # copy the rendered message onto the board
     if XO == 'o':
         screen.fill (GREENGRAY, (0, 600, 700, 100))
-        # button("Home", 450, 620, 80, 40, GRAY, LIGHTGRAY)
         
     elif XO == 'x':
         screen.fill (GRAY, (0, 600, 700, 100))
-        # button("Home", 450, 620, 80, 40, GREENGRAY, LIGHTGREENGRAY)
         
     text_rect = text.get_rect(center=(int(WIDTH/2), int(HEIGHT + 25)))
     
