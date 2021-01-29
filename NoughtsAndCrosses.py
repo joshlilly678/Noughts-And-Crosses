@@ -1,7 +1,6 @@
 import pygame as pg,sys
 from pygame.locals import *
 import time
-import random
 
 # initialise global variables
 XO = 'x'
