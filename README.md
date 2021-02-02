@@ -7,5 +7,5 @@ This is a 2 player Noughts ands Crosses game built using pygame.
 Ensure Pygame is installed.
 
 ```bash
-pip install pygame
+python -m pip install pygame
 ```
