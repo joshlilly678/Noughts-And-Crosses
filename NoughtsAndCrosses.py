@@ -271,7 +271,7 @@ def GameLoop():
             if event.type == QUIT:
                 pg.quit()
                 sys.exit()
-            elif event.type is MOUSEBUTTONDOWN:
+            elif event.type == MOUSEBUTTONDOWN:
                 # the user clicked; place an X or O
                 userClick()
                 
